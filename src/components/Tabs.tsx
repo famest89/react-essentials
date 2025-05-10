@@ -1,9 +1,7 @@
-import type { ElementType } from 'react';
-
 interface TabsProps {
   children: React.ReactNode;
   buttons: React.ReactNode;
-  buttonsContainer?: ElementType;
+  buttonsContainer?: React.ElementType;
 }
 
 const Tabs = ({ children, buttons, buttonsContainer = 'menu' }: TabsProps) => {
